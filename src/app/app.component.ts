@@ -5,5 +5,6 @@ import { HeaderComponent } from './header/header.component';
   selector: 'app-root',
   standalone: true,
   templateUrl: './app.component.html',
+  imports: [HeaderComponent]
 })
 export class AppComponent {}
