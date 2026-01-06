@@ -1,7 +1,7 @@
 import { CurrencyPipe } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { data } from './user-input.model';
+import { InvestmentInput } from './user-input.model';
 
 @Component({
   selector: 'app-user-input',
@@ -11,7 +11,7 @@ import { data } from './user-input.model';
   styleUrl: './user-input.component.css'
 })
 export class UserInputComponent {
-  @Output() calculate = new EventEmitter<data>();
+  @Output() calculate = new EventEmitter<InvestmentInput>();
 
   indianCurrencySign = 'INR';
   enteredInitialInvestment = '0';
