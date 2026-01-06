@@ -12,7 +12,7 @@ import { data } from './user-input/user-input.model';
 export class AppComponent {
 
 
-  pncalculateInvestmentResults(data: data) {
+  oncalculateInvestmentResults(data: data) {
   const {initialInvestment, annualInvestment, expectedReturn, duration} = data;
   const annualData = [];
   let investmentValue = initialInvestment;
