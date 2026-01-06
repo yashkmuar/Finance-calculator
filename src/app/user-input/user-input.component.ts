@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class UserInputComponent {
   indianCurrencySign = 'INR';
+  enteredInitialInvestment = '0';
+  enteredAnnualInvestment = '0';
+
   onSubmit(){
   console.log("Form submitted");
   }
