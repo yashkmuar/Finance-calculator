@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from './header/header.component';
 import { UserInputComponent } from './user-input/user-input.component';
-import { InvestmentInput } from './user-input/user-input.model';
+import type { InvestmentInput } from './user-input/user-input.model';
 
 @Component({
   selector: 'app-root',

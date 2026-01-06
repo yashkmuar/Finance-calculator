@@ -1,7 +1,7 @@
 import { CurrencyPipe } from '@angular/common';
 import { Component, EventEmitter, Output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { InvestmentInput } from './user-input.model';
+import type { InvestmentInput } from './user-input.model';
 
 @Component({
   selector: 'app-user-input',
