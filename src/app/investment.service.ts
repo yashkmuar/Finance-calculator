@@ -27,6 +27,6 @@ export class InvestmentService {
             });
         }
 
-        this.resultsData?.set(annualData);
+        this.resultsData.set(annualData);
     }
 }
